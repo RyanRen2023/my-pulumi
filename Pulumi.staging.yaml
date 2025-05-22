@@ -1,0 +1,11 @@
+config:
+  my-pulumi:frontendPort: "3002"
+  my-pulumi:backendPort: "3000"
+  my-pulumi:mongoPort: "27017"
+  my-pulumi:mongoHost: mongo
+  my-pulumi:database: cart
+  my-pulumi:nodeEnvironment: development
+  my-pulumi:protocol: http://
+  my-pulumi:mongoUsername: admin
+  my-pulumi:mongoPassword:
+    secure: AAABAAhYaIzBnEjweJ9VSwBKU9axojaWms7bKINlrV+x1GHtm/A=
